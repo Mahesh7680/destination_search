@@ -72,7 +72,7 @@ const destinationsList = [
 const App = () => (
   <div className="bg-container">
     <h1>Destination Search</h1>
-    <DestinationSearch destinationsList={destinationsList} />
+    <DestinationSearch />
   </div>
 )
 
