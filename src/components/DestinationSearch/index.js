@@ -78,7 +78,7 @@ class DestinationSearch extends Component {
     this.setState(prevState => ({
       searchInput: event.target.value,
       initialData: destinationsList.filter(each =>
-        each.name.includes(searchInput),
+        each.name.toLowerCase().includes(searchInput.toLowerCase()),
       ),
     }))
 
